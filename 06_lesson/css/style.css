@@ -1,0 +1,22 @@
+.block{
+    background-color: black;
+    color: aliceblue;
+    height: 30vw;
+    width: 30vw;
+    margin: 1rem;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear:both;
+}
+section{
+    background-color: antiquewhite;
+    padding: .5rem;
+    /* overflow: auto; */
+    display: flow-root;
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+body{
+    padding: 1%;
+    font-size: 1.5rem;
+    color: purple;
+}
+/* input , button{
+    font: inherit;
+} */
+h1{
+    /* font-family: fantasy; */
+    font-family: 'Rubik Bubbles', cursive;
+}
+p{
+    text-transform: capitalize;
+    text-indent: 2em;
+    /* text-align: justify; */
+    line-height: 1.5;
+    font-style: oblique;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: dodgerblue;
+}

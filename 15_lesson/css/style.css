@@ -1,0 +1,65 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+:root{
+    --header: black;
+    --text-color:white;
+    --PADDING:1rem;
+}
+header h2{
+    padding: 1rem;
+    width: 100%;
+    background-color:var(--header);
+    color: aliceblue;
+    text-align: center;
+}
+header nav{
+    padding: 0.5rem;
+    background-color: aquamarine;
+    text-align: right;
+}
+footer{
+    background-color: var(--header);
+    color: var(--text-color);
+    position: absolute;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+}
+p{
+    font-size: clamp(1.5rem, 3vh,2rem);
+    padding: var(--PADDING);
+}
+.center{
+    display: block;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: var(--PADDING);
+    color: #000;
+    font-size:clamp(1rem,300vh,2rem);
+}
+@media screen and (max-width: 576px){
+    main{
+        align-items: center;
+    }
+    main section{
+        margin-top: 1rem;
+        width:70%;
+        border: 1px solid rgb(0, 0, 0);
+        padding: 1rem;
+        text-align: center;
+        margin-left: 15%;
+    }
+    main aside{
+        background-color: aqua;
+        width: 70%;
+        border: 2px solid rgb(0, 0, 0);
+        text-align: center;
+        margin-left: 15%;
+        margin-bottom: 1rem;
+    }
+}

@@ -1,0 +1,15 @@
+.parallax{
+    background-color: aqua;
+    min-height: 400px;
+    background-image: url("Study.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    background-color: antiquewhite;
+}
+.content{
+    height: 500px;
+    background-color: brown;
+}

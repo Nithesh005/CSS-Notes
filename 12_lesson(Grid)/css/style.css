@@ -1,0 +1,62 @@
+body{
+    display: grid;
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd"
+    "mn mn mn mn mn mn sb sb"
+    "ft ft ft ft ft ft ft ft"
+    ;
+    gap: 1rem;
+}
+.el{
+    background-color: rebeccapurple;
+    display: grid;
+    place-content: center;
+}
+.header{
+    grid-area: hd;
+    background-color: red;
+}
+.main{
+    grid-area: mn;
+    background-color: blue;
+}
+.sidebar{
+    grid-area: sb;
+    background-color: aqua;
+}
+footer{
+    grid-area: ft;
+    color: aliceblue;
+    background-color: black;
+}
+.box{
+    background-color: black;
+    color: white;
+    padding: 5rem;
+    font-size: 2rem;
+}
+.container{
+    grid-area: mn;
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 1rem;
+    gap: 1rem;
+    
+}
+.box:first-child{
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    align-items: center;
+    justify-content: center;
+
+}
+.box:nth-child(2){
+    background-color: purple;
+    grid-column: 1/10;
+    place-content: center;
+}
+.box:nth-child(3){
+    background-color: red;
+    grid-column: 5/10;
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption&family=Rowdies&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    margin: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 1.5rem;
+}
+nav{
+    border: 2px solid gray;
+    border-radius: 2rem;
+    margin: 1rem auto;
+    font-size: 3rem;
+    max-width: 600px;
+    line-height: 6rem;
+}
+a{
+    display: block;
+}
+ul{
+    list-style-type: none;
+    /* list-style-position: inside; */
+    
+}
+li{
+    border-top: 2px solid rgba(128, 128, 128, 0.542);
+}
+li a, li a:visited{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+li a:hover , li a:focus{
+    background-color: yellow;
+    color: black;
+}
+h2{
+    background-color: gold;
+    border-radius: 2rem 2rem 0 0 ;
+}
+li:last-child a{
+    border-radius: 0 0 2rem 2rem;
+}

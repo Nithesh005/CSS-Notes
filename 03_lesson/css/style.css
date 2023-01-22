@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption&family=Rowdies&display=swap');
+main{
+    padding: 2em;
+    font-family: 'Coda Caption', sans-serif;
+    font-family: 'Rowdies', cursive;
+}
+ol{
+    list-style-type: lower-alpha;
+}
+ul{
+    color: purple;
+    list-style-type: lower-alpha;
+}
+ul li:nth-child(2){
+    color: red;
+}
+ul ::marker{
+    content: "=> ";
+}
